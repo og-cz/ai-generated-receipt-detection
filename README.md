@@ -3,7 +3,7 @@
 This project implements a hybrid machine learning pipeline to detect whether a digital receipt screenshot is real (human-generated) or AI-generated. The notebook extracts features from receipts using pretrained CNNs (ResNet34, EfficientNet-B0, MobileNetV2), trains XGBoost classifiers on these features, and combines their predictions via soft-voting for accurate classification. It also includes evaluation metrics and a single-image inference block for testing new receipts.
 
 <br>
-<img src="ensemble-results.png" alt="ensemble-results.png" width="100%">
+<img src="model-results-screenshot.png" alt="model-results-screenshot.png" width="100%">
 <br>
 
 ## Tech Stack
